@@ -220,12 +220,13 @@ img {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .myInfo {
-    display: none !important;
-  }
   .footerForm {
     width: 100% !important;
   }
+  .myInfo {
+    display: none !important;
+  }
+ 
 }
 @media (max-width: 768px) {
   .footerSittings {
@@ -254,22 +255,24 @@ img {
   .myInfo {
     display: none !important;
   }
-  .navbar-brand {
-    display: block;
-  }
   .footerForm {
     width: 50% !important;
   }
+  .navbar-brand {
+    display: block;
+  }
+
 }
 
 /* // Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .footerForm {
-    width: 50% !important;
-  }
+ 
   .FirstOverlay {
     margin: auto;
     width: 85%;
+  }
+  .footerForm {
+    width: 50% !important;
   }
   .myInfo {
     display: none !important;

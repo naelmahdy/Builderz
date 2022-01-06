@@ -223,6 +223,9 @@ img {
   .myInfo {
     display: none !important;
   }
+  .footerForm {
+    width: 100% !important;
+  }
 }
 @media (max-width: 768px) {
   .footerSittings {
@@ -234,9 +237,7 @@ img {
   .customersWdith {
     width: 100% !important;
   }
-  .footerForm {
-    width: 100%;
-  }
+
   .customersImg1 {
     width: 100px;
   }
@@ -256,10 +257,16 @@ img {
   .navbar-brand {
     display: block;
   }
+  .footerForm {
+    width: 50% !important;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .footerForm {
+    width: 50% !important;
+  }
   .FirstOverlay {
     margin: auto;
     width: 85%;

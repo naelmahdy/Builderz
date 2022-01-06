@@ -74,7 +74,7 @@ img {
 }
 .fa-play:before {
   position: absolute;
-z-index: 5;
+  z-index: 5;
 }
 /* --------------------------------- */
 .card {
@@ -223,18 +223,29 @@ z-index: 5;
   .myInfo {
     display: none !important;
   }
- 
 }
-@media (max-width: 768px){
-.footerSittings{
-  display: none !important;
-}
-.CopyWright{
-  border-top: white 2px solid;
-}
-.customersWdith{
-  width: 100% !important;
-}
+@media (max-width: 768px) {
+  .footerSittings {
+    display: none !important;
+  }
+  .CopyWright {
+    border-top: white 2px solid;
+  }
+  .customersWdith {
+    width: 100% !important;
+  }
+  .footerForm {
+    width: 100%;
+  }
+  .customersImg1 {
+    width: 100px;
+  }
+  .customersImg2 {
+    width: 150px;
+  }
+  .customersImg3 {
+    width: 100px;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -290,16 +301,7 @@ z-index: 5;
 
     margin-top: 20px;
   }
-  .footerForm {
-    width: 50%;
-  }
- 
 }
-
-
-
-
-
 
 /* ------------------------------ */
 .up {

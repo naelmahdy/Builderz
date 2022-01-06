@@ -6,7 +6,7 @@ img {
   scroll-behavior: smooth;
 }
 .card:hover,
-.parentoverlay:hover {
+.FirstOverlay:hover {
   box-shadow: 3px 3px 11px 5px;
 }
 .boxShadowNone {
@@ -18,7 +18,7 @@ img {
   top: 35%;
 }
 
-.parentoverlay {
+.FirstOverlay {
   position: relative;
   padding: 0;
   text-align: center;
@@ -38,10 +38,10 @@ img {
   text-align: center;
   display: none;
 }
-.parentoverlay:hover .overlay {
+.FirstOverlay:hover .overlay {
   display: flex;
 }
-.parentoverlay:hover .fa-plus {
+.FirstOverlay:hover .fa-plus {
   color: white;
   transition: all 0.5s;
 }
@@ -55,7 +55,7 @@ img {
   height: 400px;
   padding: 0;
 }
-.spinnerinner {
+.InnerSp {
   background-color: #000000ba;
   width: 100%;
   height: 400px;
@@ -64,7 +64,7 @@ img {
   width: 100px;
   height: 100px;
 }
-.spinnerinner {
+.InnerSp {
   position: relative;
 }
 .spinnerIcon {
@@ -249,7 +249,7 @@ z-index: 5;
 
 /* // Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .parentoverlay {
+  .FirstOverlay {
     margin: auto;
     width: 85%;
   }

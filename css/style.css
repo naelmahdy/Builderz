@@ -5,19 +5,20 @@ img {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-.card:hover ,.parentoverlay:hover {
+.card:hover,
+.FirstOverlay:hover {
   box-shadow: 3px 3px 11px 5px;
 }
 .boxShadowNone {
   box-shadow: none !important;
-} 
+}
 /* ------------------------------------------------------ */
 .carousel-caption {
   bottom: 50%;
   top: 35%;
 }
 
-.parentoverlay {
+.FirstOverlay {
   position: relative;
   padding: 0;
   text-align: center;
@@ -37,10 +38,10 @@ img {
   text-align: center;
   display: none;
 }
-.parentoverlay:hover .overlay {
+.FirstOverlay:hover .overlay {
   display: flex;
 }
-.parentoverlay:hover .fa-plus {
+.FirstOverlay:hover .fa-plus {
   color: white;
   transition: all 0.5s;
 }
@@ -54,7 +55,7 @@ img {
   height: 400px;
   padding: 0;
 }
-.spinnerinner {
+.InnerSp {
   background-color: #000000ba;
   width: 100%;
   height: 400px;
@@ -63,16 +64,17 @@ img {
   width: 100px;
   height: 100px;
 }
-.spinnerinner {
+.InnerSp {
   position: relative;
 }
 .spinnerIcon {
-  position: absolute;
-  top: 45%;
-  left: 49.4%;
   color: black;
   z-index: 22;
   font-size: x-large;
+}
+.fa-play:before {
+  position: absolute;
+z-index: 5;
 }
 /* --------------------------------- */
 .card {
@@ -163,7 +165,6 @@ img {
   color: rgb(255, 193, 7) !important;
 }
 
-
 /* --------------------------- customers--------------------------------------- */
 .customers {
   background-image: url(../task9images/img/carousel-1.jpg);
@@ -203,30 +204,37 @@ img {
 }
 
 /* ---------------------- hover---------------------------------- */
-.hoverSec2:hover{
-  background-color: rgb(33,37,41);
+.hoverSec2:hover {
+  background-color: rgb(33, 37, 41);
   color: white;
 }
-.FooterHover:hover{
-  background-color: rgb(255,193,7);
+.FooterHover:hover {
+  background-color: rgb(255, 193, 7);
 }
-.FooterBtnHover:hover{
-  background-color: rgb(255,193,7);
+.FooterBtnHover:hover {
+  background-color: rgb(255, 193, 7);
   color: black !important;
 }
 
-
-
-
-
-
-/* ---------------------------------------- */
+/* ---------------------media------------------- */
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .myInfo {
     display: none !important;
   }
+ 
+}
+@media (max-width: 768px){
+.footerSittings{
+  display: none !important;
+}
+.CopyWright{
+  border-top: white 2px solid;
+}
+.customersWdith{
+  width: 100% !important;
+}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -241,7 +249,7 @@ img {
 
 /* // Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .parentoverlay {
+  .FirstOverlay {
     margin: auto;
     width: 85%;
   }
@@ -285,27 +293,31 @@ img {
   .footerForm {
     width: 50%;
   }
+ 
 }
+
+
+
+
+
+
 /* ------------------------------ */
 .up {
   width: 80px;
   height: 80px;
   position: fixed;
-  bottom: 30px;
-  right: 50px;
+  bottom: 3%;
+  right: 2%;
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-
 }
 .up a {
   color: rgba(255, 193, 7, 0.404);
   font-size: 60px;
-  
 }
 
 .up a:hover {
   color: rgb(255, 193, 7);
 }
-
